@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Kapra Neue Pro';
+    src: url('./Typoforge\ Studio\ -\ Kapra\ Neue\ Pro\ Bold.otf') format('woff2'),
+         url('./Typoforge\ Studio\ -\ Kapra\ Neue\ Pro\ Bold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kapra Neue Pro', Arial, sans-serif;
+}
+
+.root {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.imgman {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+}
+
+.imgman img {
+    object-fit: contain;
+    width: 100%;
+    max-height: 340px;
+}
+
+.mancontent {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #130D3A, #3323A0);
+    border-radius: 10% 77% 0% 0% / 10% 9% 0% 0%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: top;
+    margin-top: -70px;
+    z-index: 1;
+}
+
+.deposite {
+    margin-bottom: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.rollover {
+    font-size: 4em;
+    margin-top: -17px;
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imgSemRollover {
+    margin-top: -38px;
+    margin-left: 56px;
+}
+
+.imgSemRollover img {
+    max-width: 163px;
+    margin-left: 35px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.register-button {
+    display: inline-block;
+    margin-top: 0;
+    padding: 16px 39px;
+    background-color: #00ffad;
+    color: #130D3A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.9em;
+    border-radius: 4px 30px 4px 31px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.radius {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mans {
+    max-width: 100%;
+}
+
+.bonus {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    background: linear-gradient(90deg, #00BF75, #48FFB8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.logoze {
+    width: 200px;
+}
